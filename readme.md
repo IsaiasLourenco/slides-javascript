@@ -1,4 +1,4 @@
-# Exercício HTML + CSS Avançado + Jacascript Intermediário - Lista de Slides com avançar e voltar JavaScript
+# Exercício HTML + CSS Avançado + Javascript Intermediário - Lista de Slides com avançar e voltar JS
 
 Exercício de HTML e CSS avançado e JavaScript Intermediário para praticar o que aprendi na extensão universitária Dev Full Stack DevEmDobro até o presente momento.
 
