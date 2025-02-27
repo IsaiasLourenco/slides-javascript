@@ -18,35 +18,24 @@
     align-items: center; 
 }
 
-.imagens-slider .slide .setas-mascara {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 50px; /* Ajuste conforme necessário */
-    background-color: rgba(0, 0, 0, 0); /* Use a cor de fundo correspondente à do slide */
-    z-index: 1;
-    pointer-events: none;
-}
-
 .imagens-slider .slide.mostrar{
     opacity: 1;
 }
 
 .slide-rosa{
-    background-image: url(../image/slide\ 1.png);
+    background-image: url(../image/imagem1.png);
 }
 
 .slide-verde{
-    background-image: url(../image/slide\ 2.png);
+    background-image: url(../image/imagem2.png);
 }
 
 .slide-laranja{
-    background-image: url(../image/slide\ 3.png);
+    background-image: url(../image/imagem3.png);
 }
 
 .slide-azul{
-    background-image: url(../image/slide\ 4.png);
+    background-image: url(../image/imagem4.png);
 }
 
 .seta-voltar, .seta-avancar{
@@ -55,11 +44,13 @@
 }
 
 .seta-voltar{
-    left: 3%;
+    left: 4%;
+    transform: rotateY(180deg);
+
 }
 
 .seta-avancar{
-    right: 3%;
+    right: 4%;
 }
 
 .seta-voltar .imagem-seta, .seta-avancar, .imagem-seta{
@@ -68,24 +59,26 @@
 }
 
 .opacidade{
-    opacity: 0.6;
-    cursor: pointer;
-}
-
-.slide{
-    height: 10px;
+    opacity: 0.3;
+    cursor: default;
 }
 
 .conteudo{
     background-color: #fff;
-    margin-left: 120px;
+    margin-left: 180px;
     padding: 65px 60px;
-    width: 415px;  
+    width: 350px;  
     border-radius: 10px;
 }
 
+.conteudo .titulo{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
 .conteudo .texto{
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: 300;
     margin-bottom: 50px;
 }
@@ -93,4 +86,18 @@
 .conteudo .botao{
     font-size: 3rem;
     font-weight: 700;
+}
+
+.botao.rosa{
+    color: #C50000;
+}
+
+.botao.verde{
+    color: #D9DD10;
+}
+.botao.laranja{
+    color: #A63A17;
+}
+.botao.azul{
+    color: #10ACDD;
 }

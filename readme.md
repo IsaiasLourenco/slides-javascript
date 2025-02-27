@@ -5,7 +5,7 @@ Exercício de HTML e CSS avançado e JavaScript Intermediário para praticar o q
 ## Recursos
 
 Este projeto demonstra as hailidades adquiridas, englobando HTML, CSS, FlexBox, e o principal atributo, JavaScript para avançar e voltar as imagens.
-A preocupação foi usar de maneira correta a estilização, com imagens trazidas do Figma, ('https://www.figma.com/design/zBKnYG9UNdUiIr8ClQTWSG/DESAFIO---HTML%2FCSS%2FJS-INTERMEDI%C3%81RIO?node-id=0-1&p=f&t=N8tj1nil2k3ePZLn-0') concentrando a maior parte do esforço no código JavaScript para que houvesse o ir e voltar de maneira correta das imagens dentro da apresentação do sllde.
+A preocupação foi usar de maneira correta a estilização, com imagens trazidas do Figma, ('https://www.figma.com/design/zBKnYG9UNdUiIr8ClQTWSG/DESAFIO---HTML%2FCSS%2FJS-INTERMEDI%C3%81RIO?node-id=0-1&p=f&t=N8tj1nil2k3ePZLn-0') concentrando a maior parte do esforço no código JavaScript para que houvesse o ir e voltar de maneira correta das imagens dentro da apresentação do sllde. A seta de avançar fica mais opaco e perde o clique na última imagem, assim como a seta de voltar fica opaca e perde o clique na primeira imagem, tudo feito com JavaScript
 
 ## Tecnologias utilizadas
 
